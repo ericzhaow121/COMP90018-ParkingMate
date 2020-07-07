@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Routing">
+        <SwitchPreference
+            android:key="@string/avoid_toll_pref"
+            android:summary="Click to avoid routing by tollways"
+            android:title="Avoid Tollways"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Navigation">
+        <SwitchPreference
+            android:key="@string/mocking_pref"
+            android:summary="Enable to mock a moving Location in the Turn by Turn navigation"
+            android:title="Mock Turn by Turn Movement"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

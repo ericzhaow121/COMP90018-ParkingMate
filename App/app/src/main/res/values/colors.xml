@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008c9e</color>
+    <color name="colorPrimaryDark">#005f6b</color>
+    <color name="colorAccent">#00dffc</color>
+    <color name="white">#FFFFFF</color>
+    <color name="untimed">#737272</color>
+    <color name="min15">#d415ca</color>
+    <color name="halfP">#ab7105</color>
+    <color name="oneP">#00ad0e</color>
+    <color name="twoP">#e30707</color>
+    <color name="threeP">#1fab94</color>
+
+    <color name="mapboxWhite">#ffffff</color>
+    <color name="mapboxBlue">#4264fb</color>
+    <color name="mapboxGrayLight">#c6d2e1</color>
+    <color name="mapboxPink">#ee4e8b</color>
+    <color name="mapboxYellow">#d9d838</color>
+    <color name="mapboxRed">#b43b71</color>
+
+    <color name="naviBackground">#002163</color>
+
+
+</resources>

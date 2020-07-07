@@ -1,0 +1,27 @@
+1. 请求网络必须在子线程, 不然会造成线程阻塞
+{
+	"bay_id":"6080",
+	"st_marker_id":"13225S",
+	"status":"Unoccupied",
+	"location":
+	{
+		"latitude":"-37.81939745978721",
+		"longitude":"144.94563010486848",
+		"human_address":"{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+	},
+	"lat":"-37.81939745978721",
+	"lon":"144.94563010486848",
+	":@computed_region_evbi_jbp8":"1"
+}
+Field information: 
+- FromDay: The first day in the range on which this restriction applies (0=Sunday, 6=Saturday) 
+- ToDay: The final day in the range, inclusive. (1-5=Monday to Friday) 
+- StartTime: The time each day when the restriction applies. 
+- EndTime: The time each day when the restriction ends. 
+- TypeDesc: The type of restriction. Eg: "2P Meter" (two hour parking, paid for using a meter), "Disabled Only" (only vehicles with disabiled permits can park). 
+- Description: A compact, human-readable description of the overall restrictions. TKT A stands for Ticket Area covers multiple bays within that area. DIS ONLY and DIS are both disabled parking spaces 
+- Duration: The time that a vehicle can park in the spot (assuming they can legally park there). 
+- DisabilityExt: For bays that aren't limited to disabled permits, how much time a vehicle with disabled permit can spend in the spot. Usually twice the regular amount of time. 
+- EffectiveOnPH: Does this restriction apply on public holidays. 
+- Exemption: Which vehicles are exempt.
+There can be multiple restrictions, occurring at non-overlapping times. Each restriction is a set of columns with a number: FromDay1, ToDay1, StartTime1, EndTime1, etc.

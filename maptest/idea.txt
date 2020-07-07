@@ -1,0 +1,7 @@
+1. travel tour
+2. bus route
+3. music listening detection: sugest concle around. 
+4. payment system based on NFC
+5. road flat detection
+6. barcode on sales item and compare price with other store.
+7. car park recommandation
